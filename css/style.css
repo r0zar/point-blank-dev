@@ -150,7 +150,7 @@ h6 {
   color: #ffffff;
 }
 .is-sticky #header #logo h1 a {
-  color: #2196f3;
+  color: #8bc73e;
 }
 #header #logo h1 a span {
   color: #07cc91;
@@ -171,7 +171,7 @@ h6 {
   color: #8b8b8b;
 }
 .is-sticky header .nav-menu li.menu-active a {
-  color: #2196f3 !important;
+  color: #8bc73e !important;
 }
 @media (max-width: 768px) {
   #header {
