@@ -251,14 +251,14 @@ h6 {
 }
 
 #hero .hero-content .btn-banner {
-  background: #07cc91;
-  border: 2px solid #07cc91;
+  background: #8bc73e;
+  border: 2px solid #8bc73e;
   border-radius: 30px;
 }
 
 #hero .hero-content .btn-banner:hover {
   background: none;
-  color: #07cc91;
+  color: #8bc73e;
 }
 
 #hero .hero-content .btn-projects {
@@ -436,7 +436,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #07cc91;
+  color: #8bc73e;
 }
 
 @media (max-width: 768px) {
@@ -482,7 +482,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #07cc91;
+  color: #8bc73e;
 }
 
 #mobile-nav ul li li {
@@ -503,7 +503,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #07cc91;
+  color: #8bc73e;
 }
 
 #mobile-body-overly {
@@ -747,7 +747,7 @@ Inner Banner
 --------------------------------*/
 #clients {
   padding: 60px 0;
-  background: #07cc91;
+  background: #8bc73e;
 }
 
 #clients img {
@@ -911,7 +911,7 @@ Inner Banner
   margin: 0 auto 15px auto;
   background: #ffffff;
   width: 100%;
-  border: 1px solid #07cc91;
+  border: 1px solid #8bc73e;
   border-radius: 15px 15px 0 15px;
   padding: 22px 15px;
   font-size: 15px;
@@ -934,7 +934,7 @@ Inner Banner
 }
 
 #testimonials .owl-dot.active {
-  background-color: #07cc91;
+  background-color: #8bc73e;
 }
 .map {
   margin: 80px auto 40px;
@@ -1046,9 +1046,9 @@ p.help-block li {
 }
 
 #team .member .social a {
-  color: #07cc91;
+  color: #8bc73e;
   margin: 2px 6px;
-  border: 1px solid #07cc91;
+  border: 1px solid #8bc73e;
   width: 42px;
   display: inline-block;
   /* opacity: .4; */
@@ -1080,7 +1080,7 @@ p.help-block li {
   font-size: 24px;
   display: inline-block;
   margin-bottom: 0;
-  color: #07cc91;
+  color: #8bc73e;
   float: left;
 }
 
@@ -1193,7 +1193,7 @@ p.help-block li {
 }
 
 #contact .form button[type="submit"] {
-  background: #07cc91;
+  background: #8bc73e;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
