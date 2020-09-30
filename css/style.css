@@ -46,7 +46,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #49a3ff;
+  background: #8bc73e;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -995,7 +995,7 @@ p.help-block li {
 #call-to-action .cta-btn:hover {
   background: #ffffff;
   border: 3px solid #ffffff;
-  color: #00a3d1;
+  color: #8bc73e;
 }
 
 /* Our Team Section
