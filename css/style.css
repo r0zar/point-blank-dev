@@ -17,7 +17,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #278bf2;
   outline: none;
   text-decoration: none;
@@ -28,7 +30,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -90,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4px 4px 0 0;
 }
 .contact-info.float-left {
-    color: #acacac;
+  color: #acacac;
 }
 #topbar .contact-info .fa-phone {
   padding-left: 20px;
@@ -119,14 +126,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: transparent;
-} 
+}
 .sticky-wrapper {
-    position: absolute;
-    width: 100%;
-    z-index: 9;
-	top:0px;
-  padding: 20px 0;     
-	    background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+  top: 0px;
+  padding: 20px 0;
+  background: transparent;
 }
 #header #logo h1 {
   font-size: 28px;
@@ -142,8 +149,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #ffffff;
 }
-.is-sticky #header #logo h1 a{
-  color: #2196F3;
+.is-sticky #header #logo h1 a {
+  color: #2196f3;
 }
 #header #logo h1 a span {
   color: #07cc91;
@@ -155,15 +162,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .is-sticky #header {
-    background: #fff;
-    padding: 20px 0;
-    box-shadow: 2px 1px 1px #33333336;
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 2px 1px 1px #33333336;
 }
-.is-sticky header .nav-menu a, .is-sticky header .nav-menu a:hover{
-	color: #8b8b8b;
+.is-sticky header .nav-menu a,
+.is-sticky header .nav-menu a:hover {
+  color: #8b8b8b;
 }
-.is-sticky header .nav-menu li.menu-active a{
-  color: #2196F3 !important;
+.is-sticky header .nav-menu li.menu-active a {
+  color: #2196f3 !important;
 }
 @media (max-width: 768px) {
   #header {
@@ -182,16 +190,17 @@ h1, h2, h3, h4, h5, h6 {
 # Intro Section
 --------------------------------------------------------------*/
 #hero {
-    width: 100%;
-    position: relative;
-    background: url(../img/intro-carousel/banner-bg.png) center bottom no-repeat;
-    background-size: cover;
-    padding: 200px 0 120px 0;
-	top:0px;
+  width: 100%;
+  position: relative;
+  background: url(../img/intro-carousel/dan-cristian-padure-WoZgy7ZwgBI-unsplash.jpg)
+    center bottom no-repeat;
+  background-size: cover;
+  padding: 200px 0 120px 0;
+  top: 0px;
 }
 #hero .hero-banner {
-    width: 50%;
-    float: right;
+  width: 50%;
+  float: right;
 }
 #hero .hero-content {
   position: absolute;
@@ -210,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 29px;
   text-align: left;
-} 
+}
 #hero .hero-content h2 span {
   color: #fff;
   text-align: right;
@@ -227,7 +236,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .hero-content .btn-banner, #hero .hero-content .btn-projects {
+#hero .hero-content .btn-banner,
+#hero .hero-content .btn-projects {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -266,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero #hero-carousel::before {
-  content: '';
+  content: "";
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   height: 100%;
@@ -292,7 +302,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -371,7 +382,8 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.nav-menu li:hover > a, .nav-menu > .menu-active > a {
+.nav-menu li:hover > a,
+.nav-menu > .menu-active > a {
   color: #fff;
 }
 
@@ -520,29 +532,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------------------------------------------------
 Inner Banner
 ---------------------------------------------------*/
-#innerBanner{
-	padding: 138px 0 64px;
-	text-align:center;
-	background: #278bf2;
+#innerBanner {
+  padding: 138px 0 64px;
+  text-align: center;
+  background: #278bf2;
 }
-#innerBanner h2{
-	color:#fff;
-	text-align:center;
-	font-weight:normal;
-	font-size:18px;
-	margin:0px;
+#innerBanner h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px;
 }
-#innerBanner h2 span{
-	color: #00e5a1;
-	font-weight:bold;
-	font-size:38px;
-	text-align:center;
+#innerBanner h2 span {
+  color: #00e5a1;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
 }
-.svgImg{
-	
+.svgImg {
 }
-.svgImg img{
-	width:120px;
+.svgImg img {
+  width: 120px;
 }
 /*--------------------------------------------------------------
 # Sections
@@ -565,7 +576,7 @@ Inner Banner
 }
 
 .section-header h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 62px;
@@ -725,7 +736,8 @@ Inner Banner
     text-align: center;
     padding-bottom: 15px;
   }
-  #services .box h4, #services .box p {
+  #services .box h4,
+  #services .box p {
     margin-left: 0;
     text-align: center;
   }
@@ -749,7 +761,8 @@ Inner Banner
   opacity: 1;
 }
 
-#clients .owl-nav, #clients .owl-dots {
+#clients .owl-nav,
+#clients .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -807,11 +820,11 @@ Inner Banner
   padding: 25px;
   /* background: linear-gradient(45deg, #596bf357 0%, #405ece91 100%); */
 }
-#portfolio .portfolio-item h2{
-  opacity:0;
+#portfolio .portfolio-item h2 {
+  opacity: 0;
 }
-#portfolio .portfolio-item:hover h2{
-opacity:1;
+#portfolio .portfolio-item:hover h2 {
+  opacity: 1;
 }
 #portfolio .portfolio-item img {
   -webkit-transition: all ease-in-out 0.4s;
@@ -905,7 +918,8 @@ opacity:1;
   color: #686868;
 }
 
-#testimonials .owl-nav, #testimonials .owl-dots {
+#testimonials .owl-nav,
+#testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -922,22 +936,21 @@ opacity:1;
 #testimonials .owl-dot.active {
   background-color: #07cc91;
 }
-.map{
-	
-margin: 80px auto 40px;
+.map {
+  margin: 80px auto 40px;
 }
 p.help-block,
-p.help-block ul{
-    float: left; 
-    margin: 0;
-    padding: 0;
+p.help-block ul {
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 p.help-block li {
-    float: left; 
-    margin: 10px 0 0 0;
-    padding: 0;
-    list-style:none;
-    color:red;
+  float: left;
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+  color: red;
 }
 /* Call To Action Section
 --------------------------------*/
@@ -1041,7 +1054,7 @@ p.help-block li {
   /* opacity: .4; */
   padding: 4px;
 }
-#team .member .social a:hover{
+#team .member .social a:hover {
   color: #081e5b;
   margin: 2px 6px;
   border: 1px solid #081e5b;
@@ -1071,7 +1084,8 @@ p.help-block li {
   float: left;
 }
 
-#contact .contact-info address, #contact .contact-info p {
+#contact .contact-info address,
+#contact .contact-info p {
   margin-bottom: 0;
   color: #000;
   display: block;
@@ -1102,12 +1116,16 @@ p.help-block li {
   color: #596bf3;
 }
 
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
     padding: 0;
     text-align: left;
   }
@@ -1127,9 +1145,9 @@ p.help-block li {
   #contact #google-map {
     margin-top: 20px;
   }
-  #hero .hero-content { 
+  #hero .hero-content {
     left: 5%;
-	}
+  }
 }
 
 #contact .form #sendmessage {
@@ -1152,7 +1170,9 @@ p.help-block li {
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
   display: block;
 }
 
@@ -1164,7 +1184,8 @@ p.help-block li {
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contact .form input,
+#contact .form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
@@ -1212,8 +1233,8 @@ p.help-block li {
   color: #278bf2;
 }
 .owl-carousel .owl-item img {
-    display: block;
-    width: auto;
-    height: 70px;
-    margin: 0 auto;
+  display: block;
+  width: auto;
+  height: 70px;
+  margin: 0 auto;
 }
