@@ -13,14 +13,14 @@ body {
 }
 
 a {
-  color: #596bf3;
+  color: #3a305a;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #278bf2;
+  color: #3a305a;
   outline: none;
   text-decoration: none;
 }
@@ -63,13 +63,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #596bf3;
+  background: #3a305a;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #278bf2;
+  background: #3a305a;
   color: #fff;
 }
 
@@ -89,11 +89,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #596bf3;
+  color: #3a305a;
 }
 
 #topbar .contact-info i {
-  color: #596bf3;
+  color: #3a305a;
   padding: 4px 4px 0 0;
 }
 .contact-info.float-left {
@@ -106,7 +106,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #596bf3;
+  color: #3a305a;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -262,13 +262,13 @@ h6 {
 }
 
 #hero .hero-content .btn-projects {
-  background: #596bf3;
-  border: 2px solid #596bf3;
+  background: #3a305a;
+  border: 2px solid #3a305a;
 }
 
 #hero .hero-content .btn-projects:hover {
   background: none;
-  color: #596bf3;
+  color: #3a305a;
 }
 
 #hero #hero-carousel {
@@ -412,7 +412,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #596bf3;
+  color: #3a305a;
 }
 
 .nav-menu ul ul {
@@ -456,7 +456,7 @@ h6 {
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
-  background: #596bf3;
+  background: #3a305a;
 }
 
 #mobile-nav ul {
@@ -499,7 +499,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #596bf3;
+  color: #3a305a;
 }
 
 #mobile-nav ul .menu-item-active {
@@ -535,7 +535,7 @@ Inner Banner
 #innerBanner {
   padding: 138px 0 64px;
   text-align: center;
-  background: #278bf2;
+  background: #3a305a;
 }
 #innerBanner h2 {
   color: #fff;
@@ -583,7 +583,7 @@ Inner Banner
   height: 3px;
   bottom: 0;
   left: 0;
-  border-top: #596bf3 solid 2px;
+  border-top: #3a305a solid 2px;
   right: 0;
   text-align: center;
   margin: 0 auto;
@@ -647,7 +647,7 @@ Inner Banner
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #596bf3;
+  color: #3a305a;
 }
 
 #about .content ul {
@@ -696,7 +696,7 @@ Inner Banner
 }
 
 #services .box .icon i:before {
-  background: #278bf2;
+  background: #3a305a;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -777,7 +777,7 @@ Inner Banner
 }
 
 #clients .owl-dot.active {
-  background-color: #596bf3;
+  background-color: #3a305a;
 }
 
 /* Our Portfolio Section
@@ -818,7 +818,7 @@ Inner Banner
   background: #00000085;
   border: 1px solid #fff;
   padding: 25px;
-  /* background: linear-gradient(45deg, #596bf357 0%, #405ece91 100%); */
+  /* background: linear-gradient(45deg, #3A305A57 0%, #405ece91 100%); */
 }
 #portfolio .portfolio-item h2 {
   opacity: 0;
@@ -955,7 +955,7 @@ p.help-block li {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #278bf2;
+  background: #3a305a;
   background-size: cover;
   padding: 40px 0;
 }
@@ -1113,7 +1113,7 @@ p.help-block li {
 }
 
 #contact .contact-info a:hover {
-  color: #596bf3;
+  color: #3a305a;
 }
 
 #contact .contact-address,
@@ -1151,8 +1151,8 @@ p.help-block li {
 }
 
 #contact .form #sendmessage {
-  color: #596bf3;
-  border: 1px solid #596bf3;
+  color: #3a305a;
+  border: 1px solid #3a305a;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1230,7 +1230,7 @@ p.help-block li {
 }
 
 #footer .credits a {
-  color: #278bf2;
+  color: #3a305a;
 }
 .owl-carousel .owl-item img {
   display: block;
