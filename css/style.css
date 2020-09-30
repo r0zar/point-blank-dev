@@ -80,7 +80,7 @@ h6 {
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   font-size: 14px;
-  background: #071e33;
+  background: #000;
 }
 
 #topbar .contact-info a {
@@ -566,7 +566,7 @@ Inner Banner
 
 .section-header h2 {
   font-size: 32px;
-  color: #071e33;
+  color: #000;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -1022,7 +1022,7 @@ p.help-block li {
 
 #team .member .details {
   background: #fff;
-  color: #071e33;
+  color: #000;
   padding: 15px 0;
   border-radius: 0 0 3px 3px;
 }
@@ -1210,7 +1210,7 @@ p.help-block li {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #071e33;
+  background: #000;
   padding: 0 0 30px 0;
   font-size: 14px;
   color: #fff;
