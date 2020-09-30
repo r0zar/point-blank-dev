@@ -134,6 +134,10 @@ h6 {
   top: 0px;
   padding: 20px 0;
   background: transparent;
+  display: none;
+}
+.is-sticky {
+  display: unset;
 }
 #header #logo h1 {
   font-size: 28px;
