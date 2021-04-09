@@ -196,8 +196,8 @@ h6 {
 #hero {
   width: 100%;
   position: relative;
-  background: url(../img/intro-carousel/dan-cristian-padure-WoZgy7ZwgBI-unsplash.jpg)
-    center bottom no-repeat;
+  background: url(../img/intro-carousel/dan-cristian-padure-WoZgy7ZwgBI-unsplash.jpg) center bottom
+    no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
   top: 0px;
@@ -549,7 +549,7 @@ Inner Banner
   margin: 0px;
 }
 #innerBanner h2 span {
-  color: #00e5a1;
+  color: #8bc73e;
   font-weight: bold;
   font-size: 38px;
   text-align: center;
