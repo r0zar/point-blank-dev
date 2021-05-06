@@ -13,7 +13,7 @@ const Dom = ({ dom }) => {
   const events = useStore((s) => s.events)
   return (
     <div
-      className='absolute top-0 left-0 w-screen h-screen overflow-hidden dom'
+      // className='absolute top-0 left-0 w-screen h-screen overflow-hidden dom'
       {...events}
     >
       <Header />
