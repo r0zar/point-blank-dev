@@ -13,7 +13,9 @@
     "build": "next build",
     "export": "EXPORT=true next build && EXPORT=true next export",
     "analyze": "ANALYZE=true next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "lint-staged": {
     "*.{js,jsx,json,md}": [
@@ -24,6 +26,8 @@
     ]
   },
   "dependencies": {
+    "@headlessui/react": "^1.1.1",
+    "@heroicons/react": "^1.0.1",
     "@react-three/a11y": "^2.0.1",
     "@react-three/drei": "^4.3.2",
     "@react-three/fiber": "^6.0.16",
@@ -38,8 +42,14 @@
   "devDependencies": {
     "@babel/core": "^7.12.17",
     "@next/bundle-analyzer": "^10.0.7",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.2.9",
     "autoprefixer": "^10.2.5",
     "babel-eslint": "^10.0.0",
+    "babel-loader": "^8.2.2",
     "babel-plugin-glsl": "^1.0.0",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
@@ -59,6 +69,7 @@
     "next-compose-plugins": "^2.2.1",
     "next-offline": "^5.0.3",
     "postcss": "^8.2.9",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
     "raw-loader": "^4.0.2",
     "url-loader": "^4.1.1",
